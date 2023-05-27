@@ -11,13 +11,18 @@
 return {
   -- add gruvbox
   -- {"rebelot/kanagawa.nvim"},
+  {
+    "catppuccin/nvim",
+    lazy = true,
+    name = "catppuccin",
+  },
 
   -- Configure LazyVim to load gruvbox
   {
     "LazyVim/LazyVim",
-    -- opts = {
-    --   colorscheme = "kanagawa",
-    -- },
+    opts = {
+      colorscheme = "catppuccin",
+    },
   },
 
   -- change trouble config
