@@ -1,7 +1,4 @@
-local fmt = require("luasnip.extras.fmt").fmt
-
 return {
-  s("trig1", t("Typescript component loaded!!")),
   s(
     "tscomponent",
     fmt(
