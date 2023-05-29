@@ -4,4 +4,5 @@ require("hop").setup()
 require("nvim-ts-autotag").setup()
 require("mini.splitjoin").setup()
 
+-- Load snippets
 require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/snippets" })
