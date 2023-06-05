@@ -4,5 +4,10 @@ require("hop").setup()
 require("nvim-ts-autotag").setup()
 require("mini.splitjoin").setup()
 
+-- Neo Composer
+require("NeoComposer").setup()
+
 -- Load snippets
 require("luasnip.loaders.from_lua").load({ paths = "~/.config/nvim/lua/snippets" })
+
+vim.fn.setreg("a", "itest")
