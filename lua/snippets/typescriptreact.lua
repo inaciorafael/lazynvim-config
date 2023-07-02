@@ -47,4 +47,5 @@ return {
       }
     )
   ),
+  s("hookform", t("import { useForm } from 'react-hook-form'")),
 }
